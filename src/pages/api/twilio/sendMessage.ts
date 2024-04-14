@@ -2,8 +2,8 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import twilio from "twilio";
 
 export default function sendMessage(req: NextApiRequest, res: NextApiResponse) {
-  const accountSid = "AC069b663a06141584651a7370fbcdf33e";
-  const token = "52edd074912220e894f7e1c5579ea64c";
+  const accountSid = "";
+  const token = "";
   const client = twilio(accountSid, token);
 
   console.log("Running sendMessage on API");
